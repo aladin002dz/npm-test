@@ -1,2 +1,2 @@
 # npm-test
-testing publishing on nom
+experimenting publishing on npm
