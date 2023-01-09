@@ -1,5 +1,7 @@
-function test(param) {
-    console.log(param);
+exports.sum = (a, b) => {
+    return a + b;
 }
 
-module.expors = test;
+exports.myFunc = () => {
+    return 'Hello Universe!'
+}

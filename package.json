@@ -4,7 +4,7 @@
   "description": "testing publishing on nom",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/aladin002dz/npm-test/issues"
   },
-  "homepage": "https://github.com/aladin002dz/npm-test#readme"
+  "homepage": "https://github.com/aladin002dz/npm-test#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
 }
